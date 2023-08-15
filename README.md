@@ -1,8 +1,26 @@
-# React + Vite
+### React Vite | Area Pollutant Checker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a project bootstrapped with [`@vitejs/app`](https://vitejs.dev/guide/#scaffolding-your-first-vite-project) combine with [Tailwind Css](https://tailwindcss.com/) and deploy in [Vercel](https://vercel.com/).
 
-Currently, two official plugins are available:
+[**Live Demo**](https://react-vite-eta.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
+
+You can clone this repository
+
+```bash
+git clone https://github.com/vhermawan/react-vite.git
+```
+
+Then, install package using yarn or npm
+
+```bash
+yarn install or npm install
+```
+
+## References
+
+- [vite](https://vitejs.dev)
+  - [avoid manual import](https://vitejs.dev/guide/features.html#jsx)
+- [Tailwind Css](https://tailwindcss.com/)
+- [Vercel](https://vercel.com/)
