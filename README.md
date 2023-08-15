@@ -18,6 +18,12 @@ Then, install package using yarn or npm
 yarn install or npm install
 ```
 
+Then, you can serve in your local development
+
+```bash
+yarn dev or npm run dev
+```
+
 ## References
 
 - [vite](https://vitejs.dev)
