@@ -18,6 +18,8 @@ Then, install package using yarn or npm
 yarn install or npm install
 ```
 
+Copy .env.example and paste as .env you can add API KEY get from [here](https://www.iqair.com/air-pollution-data-api)
+
 Then, you can serve in your local development
 
 ```bash
