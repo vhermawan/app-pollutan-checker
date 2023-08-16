@@ -30,3 +30,4 @@ yarn dev or npm run dev
   - [avoid manual import](https://vitejs.dev/guide/features.html#jsx)
 - [Tailwind Css](https://tailwindcss.com/)
 - [Vercel](https://vercel.com/)
+- [SWR](https://swr.vercel.app)
