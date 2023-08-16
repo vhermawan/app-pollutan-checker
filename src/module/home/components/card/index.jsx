@@ -1,5 +1,5 @@
 import clsx from "clsx"
-import { useCallback, useMemo, useState } from "react"
+import { useState } from "react"
 
 const isGoodAir = (data) => {
   return data >= 0 && data <= 50
@@ -20,7 +20,7 @@ const isUnhealhtyAir = (data) => {
 export function Card({ pollutan }) {
   const [dataAqius] = useState(pollutan.current.pollution.aqius)
 
-  const getQualityAir = useCallback(() => {
+  const getQualityAir = () => {
     if (isGoodAir(dataAqius)) {
       return {
         title: 'Good',
@@ -42,11 +42,9 @@ export function Card({ pollutan }) {
         image: 'ic-face-red.svg'
       }
     }
-  }, [pollutan])
+  }
 
-  const qualityAirData = useMemo(() => {
-    return getQualityAir()
-  }, [getQualityAir])
+  const qualityAirData = getQualityAir()
 
   return (
     <div className="max-w-2xl mx-auto">
